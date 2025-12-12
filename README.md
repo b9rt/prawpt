@@ -3,10 +3,6 @@ A fast, local-only teleprompter app for macOS.
 Built for creators, founders, streamers, and anyone who wants to look confident on camera without memorizing lines.
 
 Prawpt listens to your delivery, scrolls with your voice, and keeps your script exactly where your eyes already are.
-
-![Prawpt Screenshot](docs/screenshot.png)  
-*(Placeholder — add an app screenshot here when ready)*
-
 ---
 
 ## 🚀 Why Prawpt?
