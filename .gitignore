@@ -1,0 +1,62 @@
+# -------------------------
+# Node / Frontend
+# -------------------------
+node_modules/
+dist/
+build/
+.vite/
+.vscode/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.local
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# Rust / Tauri
+# -------------------------
+/src-tauri/target/
+/src-tauri/.cargo/
+*.rs.bk
+
+# Tauri bundler output (DMG, APP, installers)
+*.app
+*.dmg
+*.deb
+*.AppImage
+*.msi
+*.zip
+/src-tauri/target/
+src-tauri/target/
+src-tauri/target/**
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# -------------------------
+# Logs + cache
+# -------------------------
+*.log
+*.lock
+*.cache
+.cache/
+
+# -------------------------
+# Editor cruft
+# -------------------------
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
